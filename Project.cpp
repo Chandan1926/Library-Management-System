@@ -22,7 +22,7 @@ private:
 public:
     void addBook(int id, string title, string author) {
         books.push_back(Book(id, title, author));
-        cout << "Book successfully.\n";
+        cout << "Book added successfully.\n";
     }
 
     void searchBookById(int id) {
